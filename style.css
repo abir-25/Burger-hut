@@ -9,6 +9,9 @@ h1{
     font-size: 45px;
     line-height: 65px;
 }
+h2{
+    font-size: 32px;
+}
 .orange-color{
     color:orange;
 }
@@ -36,14 +39,14 @@ h1{
 .flexible-container{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .half-width{
     width: 50%;
-    padding: 60px;
+    padding: 60px 60px 30px 60px;
 }
 .half-width p{
-    line-height: 22px;
+    line-height: 25px;
     margin-bottom: 50px;
     text-align: justify;
     color: #525252;
@@ -72,7 +75,7 @@ h1{
 }
 
 .about-image-area{
-    padding:30px 30px 30px 120px;
+    padding:50px 30px 30px 120px;
     text-align: left;
 }
 
@@ -81,5 +84,38 @@ h1{
 }
 
 .about-text-area{
-    padding:60px 120px 30px 30px;
+    padding:80px 120px 30px 30px;
+}
+.about-text-area p{
+    text-align: left;
+}
+
+/*Recipies Section Area*/
+.recipies-section{
+    padding: 0px 50px 50px 50px;
+}
+.recipies-top-section{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.one-third-width{
+    width: 33.3%;
+    margin: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 15px;
+}
+
+.one-third-width img{
+    width: 100%;
+    border-radius: 10px;
+}
+.one-third-width h3{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.one-third-width p{
+    line-height: 30px;
+    margin-top: 12px;
 }
