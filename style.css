@@ -92,7 +92,7 @@ h2{
 
 /*Recipies Section Area*/
 .recipies-section{
-    padding: 35px 50px 50px 50px;
+    padding: 50px 50px 20px 50px;
 }
 .recipies-top-section{
     width: 55%;
@@ -118,4 +118,35 @@ h2{
 .one-third-width p{
     line-height: 30px;
     margin-top: 12px;
+}
+
+/*Menu Section Area*/
+.menu-flexible-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.menu-section{
+    padding: 50px 50px 50px 50px;
+}
+.menu-item{
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.menu-item img{
+    width: 100%;
+}
+.menu-item h3{
+    font-size: 17px;
+}
+.menu-item p{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(63, 61, 61);
 }
