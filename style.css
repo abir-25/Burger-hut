@@ -1,3 +1,4 @@
+/*Initial Setup*/
 html{
     scroll-behavior: smooth;
 }
@@ -63,7 +64,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to right, orange,#FB6656);
+    background-image: linear-gradient(to right, orange,red);
     padding:15px 35px;
     border-radius: 30px 30px;
     font-size: 17px;
@@ -107,11 +108,6 @@ h2{
     width: 33.3%;
     margin: 45px;
 }
-
-.recipie-item{
-    
-}
-
 .recipie-item img{
     width: 100%;
     border-radius: 10px;
@@ -164,7 +160,7 @@ h2{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .social-item{
     margin: 0;
