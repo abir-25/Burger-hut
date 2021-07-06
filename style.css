@@ -83,14 +83,14 @@ h2{
 }
 
 .about-image{
-    width: 80%;
+    width: 90%;
 }
 
 .about-text-area{
     padding:80px 120px 30px 30px;
 }
 .about-text-area p{
-    text-align: left;
+    text-align: justify;
 }
 
 /*Recipies Section Area*/
@@ -109,19 +109,20 @@ h2{
 }
 
 .recipie-item{
-    box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 15px;
+    
 }
 
-.one-third-width img{
+.recipie-item img{
     width: 100%;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 5px 20px 30px -10px;
 }
-.one-third-width h3{
+.recipie-item h3{
     font-size: 25px;
     margin-top: 40px;
     margin-bottom: 5px;
 }
-.one-third-width p{
+.recipie-item p{
     line-height: 30px;
     margin-top: 12px;
 }
@@ -184,7 +185,7 @@ h2{
 footer{
     background-color: #0B0E17;
     height: 160px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -192,6 +193,7 @@ footer h2{
     color: #777;
     font-size: 25px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 footer p{
     color: #ccc;
